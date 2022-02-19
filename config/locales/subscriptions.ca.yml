@@ -1,0 +1,103 @@
+ca:
+  subscriptions:
+    upgrade: Actualitza
+    tabs:
+      - Pla
+      - Historial de transaccions
+    features:
+      Segments:
+        title: Segments
+        description: true
+        upgrade_message: Activeu l'orientació i els segments de contacte
+      Leads:
+        title: Client potencial
+        description: true
+        upgrade_message: Obteniu aplicacions externes, moltes aplicacions
+      AppUsers:
+        title: Usuaris
+        description: true
+        upgrade_message: Obteniu aplicacions externes, moltes aplicacions
+      Conversations:
+        title: Converses
+        description: true
+        upgrade_message: Habilitar converses
+      BotTasks:
+        title: Tasca del Bot
+        description: true
+        upgrade_message: Afegiu fluxos de xat automatitzats a la vostra aplicació
+      Integrations:
+        title: Integracions
+        description: true
+        upgrade_message: Obteniu aplicacions externes, moltes aplicacions
+      Campaigns:
+        title: Campanyes
+        active: false
+        upgrade_message: Obteniu missatges de sortida, butlletí de notícies i visites guiades!
+      Tours:
+        title: Visita guiada
+        description: true
+        upgrade_message: Obteniu missatges de sortida, butlletí de notícies i visites guiades!
+      UserAutoMessages:
+        title: Missatges automàtics d’usuari
+        description: true
+        upgrade_message: Obteniu missatges de sortida, butlletí de notícies i visites guiades!
+      OutgoingWebhooks:
+        title: Webhooks de sortida
+        active: false
+        upgrade_message: Activa els webhooks de sortida
+      OauthApplications:
+        title: Aplicacions Oauth
+        description: true
+        upgrade_message: Activeu l'assistència d'accés a l'API mitjançant OAUTH
+      Articles:
+        title: Articles
+        active: false
+        upgrade_message: Activeu la documentació i el centre d'ajuda
+      QuickReplies:
+        title: Respostes ràpides
+        description: true
+        upgrade_message: afegiu respostes ràpides a les vostres converses
+      CustomAttributes:
+        title: Atributs personalitzats
+        upgrade_message: Activa els atributs personalitzats
+    plans:
+      - 
+        name: "gratuït"
+        description: Aquest és un pla gratuït!
+        id: 618560
+      - 
+        name: "principiant"
+        description: Aquest és el pla senzill
+        id: 616249
+      - 
+        name: "súper"
+        id: 596123
+        description: Aquest és el súper pla
+    plan:
+      included: Què inclou
+      pay_by: Paga per %{billing_type}
+      trial_days: Proveu aquest pla de forma gratuïta durant <span class="font-bold"> %{trial_days} dies </span>
+      get_access: Obteniu accés
+    alerts:
+      subscription_updated:
+        title: S'ha actualitzat la subscripció
+        desc: La subscripció s'ha actualitzat correctament. Rebràs una notificació per mail
+      subscription_created:
+        title: Subscripció creada
+        desc: La subscripció s'ha creat correctament. Rebreu una notificació aviat
+      subscription_cancelled:
+        title: S'ha cancel·lat la subscripció
+        desc: La subscripció s'ha cancel·lat
+      close: Tanca aquest diàleg
+    billing_information:
+      title: Informació de facturació
+      description: Actualment feu servir el pla "%{plan_name}".
+      next_billing: Propera facturació a %{next_payment_date} per $%{next_payment_amount} %{next_payment_currency}
+      cancel_plan: cancel·la el pla
+      update_payment_method: Actualitzar el mètoda de pagament
+      subscription_state: Estat de la subscripció %{state}
+    update_subscription:
+      cta: Actualitza la subscripció
+      billed_on: Se us cobrarà a cadascun <span class="font-bold">%{billing_period}%{billing_type}</span>
+      amount: Amb la quantitat de <span class="font-bold">$ %{recurring_price} USD</span>
+      next_payment: El próxim pagament serà <span class="font-bold">%{next_payment_date}</span></span>
